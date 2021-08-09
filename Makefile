@@ -1,17 +1,17 @@
-CC = g++
-CFLAGS = -std=c++11 -Wall -g
+# CC = g++
+# CFLAGS = -std=c++11 -Wall -g
 
-SRCS = main.cpp
+# SRCS = main.cpp
 
-OBJS = ${SRCS:.cpp=.o}
-INCLS = ${SRCS:.cpp=.h} main.h
+# OBJS = ${SRCS:.cpp=.o}
+# INCLS = ${SRCS:.cpp=.h} main.h
 
 
-a.out: $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS)
+# a.out: $(OBJS)
+# 	$(CC) $(CFLAGS) $(OBJS)
 
-$(OBJS):
-	$(CC) $(CFLAGS) -c $*.cpp
+# $(OBJS):
+# 	$(CC) $(CFLAGS) -c $*.cpp
 
-clean:
-	rm -f $(OBJS) a.out core
+# clean:
+# 	rm -f $(OBJS) a.out core
