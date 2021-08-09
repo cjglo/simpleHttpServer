@@ -1,4 +1,4 @@
-# CC = g++
+CC = gcc
 # CFLAGS = -std=c++11 -Wall -g
 
 # SRCS = main.cpp
